@@ -6,7 +6,7 @@
 
 		for($i = 0; $i < $y; $i++)
 		{
-			$sum += pow(-1,$x)*pow($y-1,$x+1);
+			$sum = pow(-1,$x)*pow($y-1,$x+1);
 		}
 		echo ($sum);
 	}
